@@ -1,6 +1,172 @@
 export default function App() {
   return (
-    <div className=" ">
+    <div className=" pt-[100px]">
+      <section>
+        <div className="bg-[#E5E5E51A] w-full h-[249px]">
+          <div className="relative container left-2/4 -translate-x-2/4 pt-[37px] flex text-center w-[840px]">
+            <div className=" ">
+              <div className="text-[25px] font-bold mb-[20px]">
+                <span className="text-[#2433A6]">
+                  CHƯƠNG TRÌNH ĐÀO TẠO VỚI NHỮNG
+                </span>{" "}
+                <span className="text-[#F5882E]">ĐIỂM ƯU VIỆT</span>
+              </div>
+              <p className="font-mont h-[110px] text-[16px] justify-center font-black leading-7  text-justify">
+                100% học viên tốt nghiệp chương trình Thạc sĩ Tài chính liên kết
+                đào tạo quốc tế giữa trường Đại học Thương mại và Đại học J.M.
+                Lyon 3 (Cộng hòa Pháp) khẳng định đã có cơ hội thăng tiến vượt
+                trội trong sự nghiệp sau khi tốt nghiệp!
+              </p>
+            </div>
+          </div>
+          <div className="relative">
+            <img
+              className="left-2/4 -translate-x-2/4 -translate-y-28 absolute"
+              src="images/quote.png"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className=" ">
+        <div className="container relative w-[1296px] h-[289px] left-2/4 -translate-x-2/4 pt-[60px] mb-[60px]">
+          <div className="grid grid-cols-9 gap-20 relative pb-[83px]">
+            <div className="relative col-span-3 ">
+              <div>
+                <div className="absolute w-[54px] h-[50px] rounded-bl-lg bg-[#F5882E] translate-y-12"></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2] "></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2]  ml-[2.5px] translate-x-11 translate-y-12"></div>
+                <div className="absolute w-[85px] h-[85px] ml-4 rounded-tr-lg rounded-bl-lg bg-[#2433A6]">
+                  <img
+                    className="absolute w-[39px] h-[39px] left-2/4 -translate-x-2/4 translate-y-2/4"
+                    src="/images/thoigian.png"
+                  />
+                </div>
+              </div>
+              <div className="relative flex-grow mr-[30px]">
+                <h3 className="ml-[120px]  font-bold text-[#282938] text-[25px]">
+                  Thời gian{" "}
+                </h3>
+                <p className="ml-[120px] font-mont text-black text-[16px] font-black">
+                  Chương trình học tối ưu gói gọn chỉ trong 12 tháng
+                </p>
+              </div>
+            </div>
+            <div className="relative col-span-3 ">
+              <div>
+                <div className="absolute w-[54px] h-[50px] rounded-bl-lg bg-[#F5882E] translate-y-12"></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2] "></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2]  ml-[2.5px] translate-x-11 translate-y-12"></div>
+                <div className="absolute w-[85px] h-[85px] ml-4 rounded-tr-lg rounded-bl-lg bg-[#2433A6]">
+                  <img
+                    className="absolute w-[39px] h-[39px] left-2/4 -translate-x-2/4 translate-y-2/4"
+                    src="/images/bangcap.png"
+                  />
+                </div>
+              </div>
+              <div className="relative flex-grow mr-[30px]">
+                <h3 className="ml-[120px]  font-bold text-[#282938] text-[25px]">
+                  Bằng cấp{" "}
+                </h3>
+                <p className="ml-[120px]  font-mont text-black text-[16px] font-black">
+                  Nhận bằng Thạc sỹ do Đại học Jean-Moulin Lyon 3 cấp, được Bộ
+                  GD&ĐT Việt Nam công nhận{" "}
+                </p>
+              </div>
+            </div>
+            <div className="relative col-span-3 ">
+              <div>
+                <div className="absolute w-[54px] h-[50px] rounded-bl-lg bg-[#F5882E] translate-y-12"></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2] "></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2]  ml-[2.5px] translate-x-11 translate-y-12"></div>
+                <div className="absolute w-[85px] h-[85px] ml-4 rounded-tr-lg rounded-bl-lg bg-[#2433A6]">
+                  <img
+                    className="absolute w-[39px] h-[39px] left-2/4 -translate-x-2/4 translate-y-2/4"
+                    src="/images/hocphi.png"
+                  />
+                </div>
+              </div>
+              <div className="relative flex-grow mr-[30px]">
+                <h3 className="ml-[120px]  font-bold text-[#282938] text-[25px]">
+                  Học phí{" "}
+                </h3>
+                <p className="ml-[120px]  font-mont text-black text-[16px] font-black">
+                  Học phí hấp dẫn so với các chương trình liên kết khác: chỉ
+                  khoảng 105 triệu/ toàn khóa học{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-9 gap-20 relative">
+            <div className="relative col-span-3 ">
+              <div>
+                <div className="absolute w-[54px] h-[50px] rounded-bl-lg bg-[#F5882E] translate-y-12"></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2] "></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2]  ml-[2.5px] translate-x-11 translate-y-12"></div>
+                <div className="absolute w-[85px] h-[85px] ml-4 rounded-tr-lg rounded-bl-lg bg-[#2433A6]">
+                  <img
+                    className="absolute w-[39px] h-[39px] left-2/4 -translate-x-2/4 translate-y-2/4"
+                    src="/images/giangvien.png"
+                  />
+                </div>
+              </div>
+              <div className="relative flex-grow mr-[30px]">
+                <h3 className="ml-[120px]  font-bold text-[#282938] text-[25px]">
+                  Giảng viên{" "}
+                </h3>
+                <p className="ml-[120px]  font-mont text-black text-[16px] font-black">
+                  Được giảng dạy bởi các giáo sư hàng đầu trong lĩnh vực tài
+                  chính của Pháp{" "}
+                </p>
+              </div>
+            </div>
+            <div className="relative col-span-3 ">
+              <div>
+                <div className="absolute w-[54px] h-[50px] rounded-bl-lg bg-[#F5882E] translate-y-12"></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2] "></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2]  ml-[2.5px] translate-x-11 translate-y-12"></div>
+                <div className="absolute w-[85px] h-[85px] ml-4 rounded-tr-lg rounded-bl-lg bg-[#2433A6]">
+                  <img
+                    className="absolute w-[39px] h-[39px] left-2/4 -translate-x-2/4 translate-y-2/4"
+                    src="/images/chuongtrinh.png"
+                  />
+                </div>
+              </div>
+              <div className="relative flex-grow mr-[30px]">
+                <h3 className="ml-[120px]  font-bold text-[#282938] text-[25px]">
+                  Chương trình{" "}
+                </h3>
+                <p className="ml-[120px]  font-mont text-black text-[16px] font-black">
+                  Mang tính ứng dụng cao và phát triển các kỹ năng mềm{" "}
+                </p>
+              </div>
+            </div>
+            <div className="relative col-span-3 ">
+              <div>
+                <div className="absolute w-[54px] h-[50px] rounded-bl-lg bg-[#F5882E] translate-y-12"></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2] "></div>
+                <div className="absolute w-[54px] h-[50px] rounded-tl-lg bg-[#3EAED2]  ml-[2.5px] translate-x-11 translate-y-12"></div>
+                <div className="absolute w-[85px] h-[85px] ml-4 rounded-tr-lg rounded-bl-lg bg-[#2433A6]">
+                  <img
+                    className="absolute w-[39px] h-[39px] left-2/4 -translate-x-2/4 translate-y-2/4"
+                    src="/images/mangluoi.png"
+                  />
+                </div>
+              </div>
+              <div className="relative flex-grow mr-[30px]">
+                <h3 className="ml-[120px]  font-bold text-[#282938] text-[25px]">
+                  Mạng lưới{" "}
+                </h3>
+                <p className="ml-[120px]  font-mont text-black text-[16px] font-black">
+                  Cơ hội gia nhập cộng đồng Alumni gần 500 học viên xuất sắc và
+                  thành công{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="pt-[100px] ">
         <div className="relative w-full h-[576px] bg-[#2433A6]">
           <div className="container relative left-2/4 -translate-x-2/4">
